@@ -1,0 +1,1 @@
+# For wordpress front end, clone the repository and host it on a local server then access Botiga theme.
