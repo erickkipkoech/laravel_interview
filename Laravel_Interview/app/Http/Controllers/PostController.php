@@ -14,7 +14,7 @@ class PostController extends Controller
 
     public function get_posts_view(){
 
-        return view('posts.get_posts_view',['posts'=>Post::latest()]);
+        return view('posts.get_posts_view',['posts'=>Post::latest()->get()]);
     }
 
 
